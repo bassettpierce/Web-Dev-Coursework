@@ -2,11 +2,48 @@
 <html>
 <head>
 	<!-- metadata goes in the head -->
-	<title></title>
+	<title>Forms Exercise</title>
 </head>
 <body>
 	<!-- Content goes in the body -->
-    
+    <h1>Register</h1>
+
+    <form action="GET">
+        <!--Text input for First and Last Name with placeholder text John Smith validationss for text-->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="John" pattern="[a-z][A-Z]"></input>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" placeholder="Smith" pattern="[a-z][A-Z]"></input>
+        
+        <!--Radio Buttons for Male/Female/Other-->
+        <div>
+            <label for="gender">Male</label>
+            <input type="radio" id="gender"></input>
+            <label for="gender">Female</label>
+            <input type="radio" id="gender"></input>
+            <label for="gender">Other</label>
+            <input type="radio" id="gender"></input>
+        </div>
+
+        <!--Email Password text input with placeholder text email and password validation for email and password must be between 5 and 10 characters-->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="your email"></input>
+            <label for="password">Password:</label>
+            <input type="password" id="password"></input>
+
+        </div>
+
+        <!--Birthday drop down selection Month, Day, Year-->
+
+        <!--Terms and Conditions checkbox-->
+
+        <!--Submit button-->
+        <div>
+            <button>Submit</button>
+        </div>
+
+    </form>
 
 </body>
 </html>
