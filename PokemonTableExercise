@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- metadata goes in the head -->
+	<title>Dog
+    </title>
+</head>
+<body>
+	<!-- Content goes in the body -->
+    <h1>Rusty Steele</h1>
+
+    <div><p>Hi, I'm a dog. Woof!</p></div>
+
+    <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg" alt="Girl in a jacket" width="500" height="600">
+
+    <h3>Some of my favorite places:</h3>
+    <ul>
+        <li>The beach</li>
+        <li>The dog park</li>
+        <li>The fire hydrant</li>
+    </ul>
+
+    <div><p>Make sure to follow me on <a href="https://www.instagram.com">Instagram</a></p></div>
+
+
+</body>
+</html>
+
